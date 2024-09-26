@@ -90,7 +90,8 @@ class Home extends Component {
   }
 
   render() {
-    // console.log(this.state.candidates);
+    console.log(this.state.candidates);
+	  
     const handleonCardClick = async (candidate) => {
       if (this.state.disabled === false) {
 				this.setState({ candidate_id: candidate.Name });
